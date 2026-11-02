@@ -1,0 +1,1 @@
+{"name": "kv-freight", "version": "5.0.0", "private": true, "engines": {"node": ">=18"}, "scripts": {"test": "node --test test/api.test.js test/static.test.js test/llm.test.js", "check": "node --check app.js && node --check api/chat.js && node --check api/contact.js && node --check api/_llm.js && node --check api/health.js", "dev": "npx vercel dev"}}
